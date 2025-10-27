@@ -24,27 +24,6 @@ Interactive movie gallery built with React + Vite, designed to practice animatio
 
 ---
 
-### 🖼️ Project Structure
-
-src/
-├─ components/
-│  ├─ gallery/
-│  │  ├─ Gallery.jsx
-│  │  └─ Gallery.module.css
-│  ├─ cards/
-│  │  ├─ MovieCard.jsx
-│  │  └─ MovieCard.module.css
-│  └─ popup/
-│     ├─ Popup.jsx
-│     └─ Popup.module.css
-├─ data/
-│  └─ movies.js
-├─ assets/
-│  └─ posters/
-└─ App.jsx
-
----
-
 ### 🧠 What I Learned
 
 This project was created to practice:
@@ -56,6 +35,7 @@ This project was created to practice:
 ---
 
 ### ⚙️ How to Run
+
 
 # Install dependencies
 npm install
@@ -88,27 +68,6 @@ Galería interactiva de películas creada con **React + Vite**, diseñada para p
 - Animaciones suaves y personalizadas en cada tarjeta.  
 - Popup accesible y con control de foco.  
 - Componentes organizados y modulares.  
-
----
-
-### 🖼️ Estructura del proyecto  
-
-src/
-├─ components/
-│ ├─ gallery/
-│ │ ├─ Gallery.jsx
-│ │ └─ Gallery.module.css
-│ ├─ cards/
-│ │ ├─ MovieCard.jsx
-│ │ └─ MovieCard.module.css
-│ └─ popup/
-│ ├─ Popup.jsx
-│ └─ Popup.module.css
-├─ data/
-│ └─ movies.js
-├─ assets/
-│ └─ posters/
-└─ App.jsx
 
 ---
 
