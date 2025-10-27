@@ -1,16 +1,137 @@
-# React + Vite
+# 🎬 Movie Gallery  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🇪🇸 [Español](#-movie-gallery-español) | 🇬🇧 [English](#-movie-gallery-english)  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎞️ Movie Gallery (Español)
 
-## React Compiler
+Galería interactiva de películas creada con **React + Vite**, diseñada para practicar **animaciones con Motion** 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> 💡 Proyecto en desarrollo — actualmente incluye una galería de películas con tarjetas animadas y un popup informativo con datos de cada film.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 Tecnologías utilizadas  
+
+- ⚛️ React  
+- ⚡ Vite  
+- 🎞️ Motion (nueva versión de Framer Motion)  
+- 🎨 CSS Modules  
+
+---
+
+### 🧩 Características principales  
+
+- Animaciones suaves y personalizadas en cada tarjeta.  
+- Popup accesible y con control de foco.  
+- Diseño colorido con estilo *aesthetic* (sin modo oscuro).  
+- Componentes organizados y modulares.  
+
+---
+
+### 🖼️ Estructura del proyecto  
+src/
+├─ components/
+│ ├─ gallery/
+│ │ ├─ Gallery.jsx
+│ │ └─ Gallery.module.css
+│ ├─ cards/
+│ │ ├─ MovieCard.jsx
+│ │ └─ MovieCard.module.css
+│ └─ popup/
+│ ├─ Popup.jsx
+│ └─ Popup.module.css
+├─ data/
+│ └─ movies.js
+├─ assets/
+│ └─ posters/
+└─ App.jsx
+
+---
+
+### 🧠 Aprendizaje  
+
+Este proyecto se realizó para practicar:  
+
+- Animaciones con la nueva API de **Motion**  
+- Accesibilidad en componentes interactivos  
+- Organización de código con **CSS Modules**  
+
+---
+
+### ⚙️ Cómo ejecutarlo  
+
+```bash
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
+---
+
+## 🎞️ Movie Gallery (English)
+
+Interactive movie gallery built with React + Vite, designed to practice animations with Motion
+
+> 💡 Work in progress — currently includes a movie gallery with animated cards and an informative popup displaying details about each film.
+
+---
+
+### 🚀 Technologies Used
+
+- ⚛️ React  
+- ⚡ Vite  
+- 🎞️ Motion (new version of Framer Motion)
+- 🎨 CSS Modules  
+
+---
+
+### 🧩 Main Features
+
+- Smooth and customized animations on each card.
+- Accessible popup with focus control.
+- Colorful aesthetic design (no dark mode).
+- Modular and organized components.
+
+---
+
+### 🖼️ Project Structure
+
+src/
+├─ components/
+│  ├─ gallery/
+│  │  ├─ Gallery.jsx
+│  │  └─ Gallery.module.css
+│  ├─ cards/
+│  │  ├─ MovieCard.jsx
+│  │  └─ MovieCard.module.css
+│  └─ popup/
+│     ├─ Popup.jsx
+│     └─ Popup.module.css
+├─ data/
+│  └─ movies.js
+├─ assets/
+│  └─ posters/
+└─ App.jsx
+
+---
+
+### 🧠 What I Learned
+
+This project was created to practice:
+
+- Animations with the new Motion API
+- Accessibility in interactive components
+- Code organization using CSS Modules  
+
+---
+
+### ⚙️ How to Run
+
+# Install dependencies
+npm install
+
+# Run in development mode
+npm run dev
